@@ -1,5 +1,0 @@
-2020/08/21-15:20:31.741 13d0f Reusing MANIFEST /home/redaries/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/21-15:21:50.030 1bbfe Level-0 table #5: started
-2020/08/21-15:21:50.034 1bbfe Level-0 table #5: 826 bytes OK
-2020/08/21-15:21:50.037 1bbfe Delete type=0 #3
-2020/08/21-15:21:50.037 1bbfe Manual compaction at level-0 from (begin) .. (end); will stop at (end)
