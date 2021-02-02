@@ -1,0 +1,14 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1	localhost	localhost
+::1	localhost	localhost
+127.0.1.1	redaries.localdomain	redaries
+
+
+199.232.68.133 raw.githubusercontent.com
+199.232.68.133 gist.githubusercontent.com
+
+151.101.185.194 github.global.ssl.fastlu.net
+#192.30.253.112 github.com
+#140.82.113.4 github.com
+199.232.5.194 github.global.ssl.fastly.net
