@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-size: 16px;
+      max-width: 900px;
+      margin: auto;
+      padding-bottom: 25px;
+    }
+    kbd {
+      background-color: #eee;
+      border-radius: 3px;
+      border: 1px solid #b4b4b4;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+      color: #333;
+      display: inline-block;
+      font-size: .85em;
+      font-weight: 700;
+      line-height: 1;
+      padding: 2px 4px;
+      white-space: nowrap;
+    }
+    kbd + span {
+      margin-left: 8px;
+    }
+    input, button {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+    button {
+      cursor: pointer;
+    }
+    #custom-step {
+      width: 65px;
+    }
+    #saved {
+      color: green;
+      margin-left: 5px;
+      display: none;
+    }
+    #saved.show {
+      display: inline-block;
+    }
+    .mt-2 {
+      margin-top: 8px;
+    }
+    .mb-2 {
+      margin-bottom: 8px;
+    }
+    .row {
+      display: flex;
+      padding: 0px 15px;
+    }
+    .column {
+      flex: 50%;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #121212; color: #FFFFFF; }
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="column">
+      <h2 data-i18n="addedKeys"></h2>
+      <p><kbd>D</kbd> <span data-i18n="keyD"></span></p>
+      <p><kbd>F</kbd> <span data-i18n="keyF"></span></p>
+      <p><kbd>W</kbd> <span data-i18n="keyW"></span></p>
+      <p><kbd>T</kbd> <span data-i18n="keyT"></span></p>
+      <p><kbd>J</kbd> <span data-i18n="keyJ"></span></p>
+      <p><kbd>Shift</kbd> + <kbd>J</kbd> <span data-i18n="keyShiftJ"></span></p>
+      <p><kbd>K</kbd> <span data-i18n="keyK"></span></p>
+      <p><kbd>L</kbd> <span data-i18n="keyL"></span></p>
+      <p><kbd>Shift</kbd> + <kbd>L</kbd> <span data-i18n="keyShiftL"></span></p>
+      <p><kbd>M</kbd> <span data-i18n="keyM"></span></p>
+      <p><kbd>N</kbd> <span data-i18n="keyN"></span></p>
+      <p><kbd>P</kbd> <span data-i18n="keyP"></span></p>
+      <p><kbd>I</kbd> <span data-i18n="keyI"></span></p>
+      <p><kbd>C</kbd> <span data-i18n="keyC"></span></p>
+      <p><kbd>+</kbd> <span data-i18n="keyPlus"></span></p>
+      <p><kbd>-</kbd> <span data-i18n="keyMinus"></span></p>
+      <p><kbd>0</kbd> <span data-i18n="key0"></span></p>
+      <p><kbd>Shift</kbd> + <kbd>S</kbd> <span data-i18n="keyShiftS"></span></p>
+      <p><kbd>,</kbd> <span data-i18n="keyComma"></span></p>
+      <p><kbd>.</kbd> <span data-i18n="keyPeriod"></span></p>
+      <p><kbd>Z</kbd> <span data-i18n="keyZ"></span></p>
+      <p>⏩ <span data-i18n="keyN"></span></p>
+    </div>
+    <div class="column">
+      <h2 data-i18n="builtinKeys"></h2>
+      <p><kbd>Space</kbd> <span data-i18n="keyK"></span></p>
+      <p><kbd>→</kbd> <span data-i18n="keyL"></span></p>
+      <p><kbd>←</kbd> <span data-i18n="keyJ"></span></p>
+      <p><kbd>↑</kbd> <span data-i18n="keyVolumeUp"></span></p>
+      <p><kbd>↓</kbd> <span data-i18n="keyVolumeDown"></span></p>
+      <p><kbd>Esc</kbd> <span data-i18n="keyEsc"></span></p>
+      <p><kbd>F</kbd> <span data-i18n="keyF"></span></p>
+      <p><kbd>[</kbd> <span data-i18n="keyPrevious"></span></p>
+      <p><kbd>]</kbd> <span data-i18n="keyN"></span></p>
+      <p><kbd>Enter</kbd> <span data-i18n="keyEnter"></span></p>
+      <p>⏯️ <span data-i18n="keyK"></span></p>
+    </div>
+  </div>
+
+  <h2 data-i18n="custom"></h2>
+  <div>
+    <label for="custom-step" data-i18n="longStep"></label>
+    <input type="number" id="custom-step" step="1" min="1" max="600"> <span data-i18n="second"></span>
+  </div>
+  <div class="mt-2">
+    <button id="saveStep" data-i18n="save"></button> <span data-i18n="saved" id="saved"></span>
+  </div>
+
+  <script type="text/javascript" src="shortcuts.js"></script>
+</body>
+</html>

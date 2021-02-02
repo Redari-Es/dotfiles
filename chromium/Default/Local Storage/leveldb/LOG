@@ -1,0 +1,6 @@
+2020/10/10-00:40:35.414 8099 Reusing MANIFEST /home/redaries/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/10/10-00:40:35.414 8099 Recovering log #59
+2020/10/10-00:40:35.414 8099 Reusing old log /home/redaries/.config/chromium/Default/Local Storage/leveldb/000059.log 
+2020/10/10-23:27:56.681 1969b Level-0 table #63: started
+2020/10/10-23:27:56.682 1969b Level-0 table #63: 13229 bytes OK
+2020/10/10-23:27:56.683 1969b Delete type=0 #59

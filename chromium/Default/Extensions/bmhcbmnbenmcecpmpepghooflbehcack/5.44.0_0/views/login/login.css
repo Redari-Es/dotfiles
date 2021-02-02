@@ -1,0 +1,55 @@
+.titleLabel {
+  font-family: 'Montserrat', 'Noto Sans JP', 'Noto Sans KR', sans-serif !important;
+  font-size: 15px;
+  color: var(--grayscale2-800);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 100%;
+  letter-spacing: normal;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.titleLabel .browser {
+  color: var(--primary-500);
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 108px;
+  background-color: #fafafa;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+}
+
+.container .label {
+  font-family: 'Montserrat', 'Noto Sans JP', 'Noto Sans KR', sans-serif !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--grayscale2-800);
+  margin-top: 25px;
+  margin-bottom: 22px;
+}
+
+.container .loginBtn {
+  padding: 7px 21px 7px 21px;
+  font-family: 'Montserrat', 'Noto Sans JP', 'Noto Sans KR', sans-serif !important;
+  border-radius: 16px;
+  background-color: var(--primary-500);
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+  color: var(--white);
+}
