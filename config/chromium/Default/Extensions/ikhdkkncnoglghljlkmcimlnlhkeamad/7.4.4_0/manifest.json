@@ -1,0 +1,65 @@
+{
+   "background": {
+      "scripts": [ "browser-polyfill.js", "vendors-background-content-script-content-script-all-frames-panel-pdfViewer-popup-settings.js", "vendors-background-content-script-content-script-all-frames-panel-popup-settings.js", "vendors-background-settings.js", "background-settings.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Q",
+            "mac": "MacCtrl+Q"
+         }
+      },
+      "panel": {
+         "description": "打开独立翻译窗口",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+1"
+         }
+      },
+      "translate": {
+         "description": "翻译选中的文本",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      },
+      "translateWithPopup": {
+         "description": "使用独立窗口翻译选中的文本",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "browser-polyfill.js", "vendors-background-content-script-content-script-all-frames-panel-pdfViewer-popup-settings.js", "vendors-background-content-script-content-script-all-frames-panel-popup-settings.js", "vendors-content-script-panel-pdfViewer-popup-settings.js", "vendors-content-script-panel-popup-settings.js", "vendors-content-script.js", "content-script-panel-popup-settings.js", "content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "browser-polyfill.js", "vendors-background-content-script-content-script-all-frames-panel-pdfViewer-popup-settings.js", "vendors-background-content-script-content-script-all-frames-panel-popup-settings.js", "vendors-content-script-all-frames.js", "content-script-all-frames.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "简单好用的翻译扩展程序。",
+   "differential_fingerprint": "1.e503bdc691dceea19a7febd28fce4926c43b20d5d861ecd89c70558f3b13218c",
+   "homepage_url": "https://hcfy.limingkai.cn",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC28U3at5pX9CdXpey4QOxy5tpKRQQ+R3IXAaj8NPqT4pQh9X0jpX7Cc4w8SSrVph+m43e9T72B8NEjc9km4boLuxshHVnTGi7HLlQpPQV10BM2GeNMxQDkK5ca3oL6gVMMNGnq+PJDygweV1yMfcsJlLL/zdmrZ5CXADHBZ2lUbwIDAQAB",
+   "manifest_version": 2,
+   "name": "划词翻译",
+   "optional_permissions": [ "notifications" ],
+   "options_page": "settings.html",
+   "permissions": [ "\u003Call_urls>", "contextMenus", "storage", "clipboardWrite", "clipboardRead", "webRequest", "webRequestBlocking", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.4.4",
+   "web_accessible_resources": [ "normalize.css", "blueprint.css", "blueprint-select.css", "youdao.ico", "baidu.ico", "google.ico", "deepl.png", "logo.png", "logowhite36.png", "pdf-viewer/*", "panel.html", "vendors-background-content-script-content-script-all-frames-panel-pdfViewer-popup-settings.js", "vendors-background-content-script-content-script-all-frames-panel-popup-settings.js", "vendors-content-script-panel-pdfViewer-popup-settings.js", "vendors-content-script-panel-popup-settings.js", "content-script-panel-popup-settings.js", "panel-popup.css", "panel-popup.js", "panel.css", "panel.js" ]
+}

@@ -1,0 +1,8 @@
+2021/02/02-16:34:18.285 2e57 Recovering log #314
+2021/02/02-16:34:18.285 2e57 Level-0 table #316: started
+2021/02/02-16:34:18.315 2e57 Level-0 table #316: 204 bytes OK
+2021/02/02-16:34:18.324 2e57 Delete type=3 #312
+2021/02/02-16:34:18.324 2e57 Delete type=0 #314
+2021/02/02-16:34:18.324 3e8f Compacting 4@0 + 1@1 files
+2021/02/02-16:34:18.325 3e8f Compacted 4@0 + 1@1 files => 0 bytes
+2021/02/02-16:34:18.331 3e8f compacted to: files[ 0 0 0 0 0 0 0 ]

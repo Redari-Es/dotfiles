@@ -1,0 +1,87 @@
+19时15分14秒.111: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+19时15分14秒.111: CPU Speed: 1800.003MHz
+19时15分14秒.111: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+19时15分14秒.111: CPU Speed: 1800.003MHz
+19时15分14秒.111: Physical Cores: 4, Logical Cores: 4
+19时15分14秒.111: Physical Memory: 9927MB Total, 7971MB Free
+19时15分14秒.111: Kernel Version: Linux 5.10.10-artix1-1
+19时15分14秒.111: Distribution: "Artix Linux" Unknown
+19时15分14秒.111: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+19时15分14秒.113: Portable mode: false
+19时15分14秒.235: OBS 26.0.2-2 (linux)
+19时15分14秒.235: ---------------------------------
+19时15分14秒.236: ---------------------------------
+19时15分14秒.236: audio settings reset:
+19时15分14秒.236: 	samples per sec: 48000
+19时15分14秒.236: 	speakers:        2
+19时15分14秒.243: ---------------------------------
+19时15分14秒.243: Initializing OpenGL...
+19时15分14秒.440: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 11.0.1, 256 bits)
+19时15分14秒.440: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 20.3.4, shading language 4.50
+19时15分14秒.470: ---------------------------------
+19时15分14秒.470: video settings reset:
+19时15分14秒.470: 	base resolution:   1920x1080
+19时15分14秒.470: 	output resolution: 852x480
+19时15分14秒.470: 	downscale filter:  Bicubic
+19时15分14秒.470: 	fps:               60/1
+19时15分14秒.470: 	format:            NV12
+19时15分14秒.470: 	YUV mode:          709/Partial
+19时15分14秒.471: NV12 texture support not available
+19时15分14秒.483: Audio monitoring device:
+19时15分14秒.483: 	name: 榛樿
+19时15分14秒.483: 	id: default
+19时15分14秒.484: ---------------------------------
+19时15分14秒.489: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19时15分14秒.636: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19时15分14秒.636: No blackmagic support
+19时15分14秒.672: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+19时15分14秒.672: 
+19时15分14秒.672: FFMPEG VAAPI supported
+19时15分14秒.678: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+19时15分14秒.678: 
+19时15分14秒.678: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+19时15分14秒.706: VLC found, VLC video source enabled
+19时15分14秒.706: ---------------------------------
+19时15分14秒.706:   Loaded Modules:
+19时15分14秒.706:     vlc-video.so
+19时15分14秒.706:     text-freetype2.so
+19时15分14秒.706:     rtmp-services.so
+19时15分14秒.706:     obs-x264.so
+19时15分14秒.706:     obs-transitions.so
+19时15分14秒.706:     obs-outputs.so
+19时15分14秒.706:     obs-filters.so
+19时15分14秒.706:     obs-ffmpeg.so
+19时15分14秒.706:     linux-v4l2.so
+19时15分14秒.706:     linux-pulseaudio.so
+19时15分14秒.706:     linux-jack.so
+19时15分14秒.706:     linux-decklink.so
+19时15分14秒.706:     linux-capture.so
+19时15分14秒.706:     linux-alsa.so
+19时15分14秒.706:     image-source.so
+19时15分14秒.706:     frontend-tools.so
+19时15分14秒.706:     decklink-ouput-ui.so
+19时15分14秒.706: ---------------------------------
+19时15分14秒.707: ==== Startup complete ===============================================
+19时15分14秒.714: All scene data cleared
+19时15分14秒.714: ------------------------------------------------
+19时15分14秒.748: Switched to scene 'Scene'
+19时15分14秒.750: ------------------------------------------------
+19时15分14秒.751: Loaded scenes:
+19时15分14秒.751: - scene 'Scene':
+19时15分14秒.751:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+19时15分14秒.751: ------------------------------------------------
+19时15分16秒.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+19时15分16秒.826: 	title: OBS 26.0.2-2 (linux) - 閰嶇疆鏂囦欢: Untitled - 鍦烘櫙: Untitled
+19时15分16秒.826: 	class: obs
+19时15分16秒.826: 	Bit depth: 24
+19时15分16秒.826: 	Found proper GLXFBConfig (in 280): yes
+19时15分16秒.826: 
+19时15分20秒.450: ==== Shutting down ==================================================
+19时15分20秒.504: All scene data cleared
+19时15分20秒.504: ------------------------------------------------
+19时15分20秒.579: Failed to fetch parent window geometry!
+19时15分20秒.581: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 1661
+19时15分20秒.595: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 1663
+19时15分20秒.606: Failed to fetch parent window geometry!
+19时15分20秒.635: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 1669
+19时15分20秒.656: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 1671

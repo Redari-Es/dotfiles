@@ -1,0 +1,5 @@
+2020/08/21-13:37:16.330 7061 Reusing MANIFEST /home/redaries/.config/chromium/Default/IndexedDB/https_getliner.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/21-13:37:32.496 7d90 Level-0 table #5: started
+2020/08/21-13:37:32.498 7d90 Level-0 table #5: 2965 bytes OK
+2020/08/21-13:37:32.558 7d90 Delete type=0 #3
+2020/08/21-13:37:32.558 7d90 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,19 @@
+2021/02/02-18:51:39.471 785 Reusing MANIFEST /home/redaries/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/02/02-18:51:39.480 785 Recovering log #1365
+2021/02/02-18:51:39.770 785 Level-0 table #1368: started
+2021/02/02-18:51:39.937 785 Level-0 table #1368: 5927134 bytes OK
+2021/02/02-18:51:39.952 785 Delete type=0 #1365
+2021/02/02-18:52:44.762 788 Level-0 table #1371: started
+2021/02/02-18:52:44.838 788 Level-0 table #1371: 5927030 bytes OK
+2021/02/02-18:52:44.840 788 Delete type=0 #1369
+2021/02/02-18:52:44.842 785 Compacting 4@0 + 2@1 files
+2021/02/02-18:52:45.025 785 Generated table #1372@0: 1 keys, 5926948 bytes
+2021/02/02-18:52:45.028 785 Generated table #1373@0: 5 keys, 516 bytes
+2021/02/02-18:52:45.028 785 Compacted 4@0 + 2@1 files => 5927464 bytes
+2021/02/02-18:52:45.029 785 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/02/02-18:52:45.029 785 Delete type=2 #1371
+2021/02/02-18:52:45.029 785 Delete type=2 #1362
+2021/02/02-18:52:45.029 785 Delete type=2 #1366
+2021/02/02-18:52:45.029 785 Delete type=2 #1364
+2021/02/02-18:52:45.029 785 Delete type=2 #1361
+2021/02/02-18:52:45.029 785 Delete type=2 #1368

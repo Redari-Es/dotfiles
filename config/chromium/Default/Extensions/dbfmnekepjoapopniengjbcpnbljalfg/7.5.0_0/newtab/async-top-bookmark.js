@@ -1,0 +1,1 @@
+"use strict";var onModuleResLoaded;window.infinity=window.infinity||{},infinity.import?SETTING.isShowTopBar&&"bookmarks"==SETTING.topBarType&&infinity.import("top-bookmarks","#bookmarkbar",function(){},!0):onModuleResLoaded=function(){SETTING.isShowTopBar&&"bookmarks"==SETTING.topBarType&&infinity.import("top-bookmarks","#bookmarkbar",function(){},!0)};
