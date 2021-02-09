@@ -32,7 +32,7 @@ autocmd Filetype markdown inoremap <buffer> ,p1 ![](<++>) <++><Esc>F[a
 "autocmd Filetype markdown inoremap <buffer> ,p1 ![](<++> "<++>") <++><Esc>F[a
 autocmd Filetype markdown inoremap <buffer> ,p2 <img src="" width="<++>" height="<++>"><Space><Enter><++><Esc>kf"a
 "超链接
-autocmd Filetype markdown inoremap <buffer> ,a [](<++>) <++><Esc>0
+autocmd Filetype markdown inoremap <buffer> ,a [<++>](<++>) <++><Esc>0
 "脚注
 autocmd Filetype markdown inoremap <buffer> ,j [^<++>]<Enter>[^<++>]:<Esc>k0
 "
