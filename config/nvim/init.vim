@@ -71,7 +71,7 @@ set enc=utf-8 "coding
 "===
 " === Editor behavior
 " ===
-"set shell=bash\ -i
+set shell=bash\ -i
 "
 "
 set number
@@ -253,7 +253,11 @@ inoremap <C-a> <ESC>A
 " ===
 inoremap <space>; <esc>A;<esc>o
 
+
 inoremap <space><Tab> <esc>A<Tab><Tab><Tab><Tab>//
+
+
+
 
 " ===
 " === Command Mode Cursor Movement
@@ -410,7 +414,7 @@ func! CompileRunGcc()
 		silent! exec "!".g:mkdp_browser." % &"
 	elseif &filetype == 'markdown'
 		exec "InstantMarkdownPreview"
-		"exec "MarkdownPreview"
+		exec "MarkdownPreview"
 	elseif &filetype == 'tex'
 		silent! exec "VimtexStop"
 		silent! exec "VimtexCompile"
@@ -612,7 +616,7 @@ Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
 Plug 'osyo-manga/vim-anzu'
 
 " Documentation
-"Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
+Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
 
 " Mini Vim-APP
 "Plug 'liuchengxu/vim-clap'
@@ -856,11 +860,11 @@ let g:instant_markdown_browser = "chromium"
 let g:instant_markdown_port = 8888
 
 
-" ===
+"===
 " === vim-table-mode
 " === 自动矫正md表格格式
 noremap <LEADER>tm :TableModeToggle<CR>
-"noremap <LEADER>mp :MarkdownPreview<CR>
+noremap <LEADER>mp :MarkdownPreview<CR>
 
 "let g:table_mode_disable_mappings = 1
 let g:table_mode_cell_text_object_i_map = 'k<Bar>'
@@ -1092,10 +1096,10 @@ let maplocalleader=' '
 " ===
 " === vim-calendar
 " ===
-"noremap \c :Calendar -position=here<CR>
+noremap \c :Calendar -position=here<CR>
 noremap \\ :Calendar -view=clock -position=here<CR>
-let g:calendar_google_calendar = 1
-let g:calendar_google_task = 1
+let g:calendar_google_calendar = 0
+let g:calendar_google_task = 0
 augroup calendar-mappings
 	autocmd!	
 		" diamond cursor
